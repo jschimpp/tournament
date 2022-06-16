@@ -1,0 +1,14 @@
+#past-winner {
+    border-top: 3px solid black;
+}
+
+table {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(208, 226, 255);
+}
+
+table, th, tr, td {
+    border: 1px solid black;
+}

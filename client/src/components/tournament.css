@@ -1,0 +1,64 @@
+#tournament {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: "finalist finalist finalist finalist"
+    "semifinalist-left semifinalist-left semifinalist-right semifinalist-right"
+    "q1 q2 q3 q4";
+    background-color: rgb(250, 80, 50);
+}
+
+#finalist {
+    grid-area: finalist;
+    border: 1px solid black;
+}
+
+#semifinalist-left {
+    grid-area: semifinalist-left;
+    border: 1px solid black;
+}
+
+#semifinalist-right {
+    grid-area: semifinalist-right;
+    border: 1px solid black;
+}
+
+#q1 {
+    grid-area: q1;
+    border: 1px solid black;
+}
+
+#q2 {
+    grid-area: q2;
+    border: 1px solid black;
+}
+
+#q3 {
+    grid-area: q3;
+    border: 1px solid black;
+}
+
+#q4 {
+    grid-area: q4;
+    border: 1px solid black;
+}
+
+#winner {
+    height: 700px;
+    background-color: rgba(58, 58, 158, 0.8);
+    background-image: /*linear-gradient(
+        115deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.7)
+      ),*/url(https://m.media-amazon.com/images/I/71z8nsjz-7L._AC_SL1000_.jpg);
+    font-size: 180px;
+}
+
+#winner-text {
+    font-weight: bold;
+    color: rgb(200, 200, 0);
+    background-color: grey;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 10px;
+}
+
